@@ -2,6 +2,7 @@ package com.hugoo02.gymexercisetracking
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         val recyclerViewUsers = findViewById<RecyclerView>(R.id.recyclerViewUsers)
+        val buttonAddUser = findViewById<Button>(R.id.buttonAddUser)
 
         getUserList { userList ->
             val adapter = UserAdapter(userList)
@@ -42,6 +44,11 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
             })
+        }
+
+        buttonAddUser.setOnClickListener {
+            val intent = Intent(this, AddUserActivity::class.java)
+            startActivity(intent)
         }
     }
 

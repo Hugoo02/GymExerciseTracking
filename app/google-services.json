@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958132605852",
+    "project_id": "gym-exercise-tracking",
+    "storage_bucket": "gym-exercise-tracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958132605852:android:426282b42282a5b263ee59",
+        "android_client_info": {
+          "package_name": "com.hugoo02.gymexercisetracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958132605852-6gep63kh8ic6cnehkvns2moq26ksodv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHQ0X6mL6Ip5sKNaH0BxH-UyoB_5QPRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958132605852-6gep63kh8ic6cnehkvns2moq26ksodv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
